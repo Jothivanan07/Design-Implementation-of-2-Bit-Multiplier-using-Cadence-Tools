@@ -1,21 +1,24 @@
-# Design-Implementation-of-2-Bit-Multiplier-using-Cadence-Tools
-Ex No: 05     Design & Implementation of 2 bit multiplier Using Cadence EDA Tools   
+## Ex No: 06     Design & Implementation of 2 bit multiplier Using Cadence EDA Tools   
 
-Aim:
+## Aim:
 To design and implement a 2-bit multiplier circuit using Cadence EDA tools, simulate its functionality, and to understand its application in digital arithmetic operations.
 
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+## Circuit Diagram
+![IMG-20241115-WA0010](https://github.com/user-attachments/assets/80794510-f752-4033-aa78-2fb975abcf9d)
+
+
+## S C H E M A T I C S I M U L A T I O N 
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -27,6 +30,7 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
+## Steps for Schematic Simulation using Cadence:
 i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
@@ -48,7 +52,9 @@ ii)	Create Schematic Cell view.
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
 
-![IMG-20241019-WA0032](https://github.com/user-attachments/assets/367dd590-0978-45bf-bbc9-84e181d23d0a)
+![Screenshot (24)](https://github.com/user-attachments/assets/b11fe09b-b399-4b9c-9215-331758c8170f)
+
+
 
  
 iii)	Creating the Symbol for schematic Cell view
@@ -65,7 +71,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![IMG-20241019-WA0029](https://github.com/user-attachments/assets/bcea6826-7c9d-464b-a645-aa0f6b0c80aa)
+![Screenshot (26)](https://github.com/user-attachments/assets/640c47ae-ff39-4cdc-bb39-4f46fbc98e0b)
+
 
 
 
@@ -80,7 +87,8 @@ iv)	Creating the new test cell view
 •	Follow the step 3(ii) d to make the required connections
 
 
-![IMG-20241019-WA0031](https://github.com/user-attachments/assets/11ad6598-e17a-42d3-becf-022d93e4e99d)
+![Screenshot (12)](https://github.com/user-attachments/assets/cfb3a10c-02d2-4d64-9a0d-50815085a71e)
+
 
  
 
@@ -95,14 +103,16 @@ Analog simulation by SPECTRE.
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
 
-![IMG-20241026-WA0016](https://github.com/user-attachments/assets/cefafc03-6c2e-4227-91fe-f21f1241754c)
+![Screenshot (14)](https://github.com/user-attachments/assets/a72d9b57-85e6-4f63-901f-4f6b267dbedf)
+
 
 
 For Transient Analysis Settings and Output
-![IMG-20241019-WA0028](https://github.com/user-attachments/assets/ccc48800-045e-4cf8-b9d7-bf8fc443e8ae)
+![Screenshot (13)](https://github.com/user-attachments/assets/525643f4-963d-40a9-9a76-bfaddc9ac562)
 
 
- ![IMG-20241019-WA0027](https://github.com/user-attachments/assets/c13a30de-284c-4201-8bde-c9fc9e88234b)
+
+ ![Screenshot (27)](https://github.com/user-attachments/assets/b668026c-7a36-4199-bfb2-72269c93127f)
 
   
 
